@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Downloader</title>
+    <style>
+        body { font-family: Arial; text-align: center; background: #f0f0f0; padding-top: 50px; }
+        .box { background: white; padding: 30px; display: inline-block; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        input { padding: 10px; width: 300px; border: 1px solid #ddd; border-radius: 5px; }
+        button { padding: 10px 20px; background: #ff0000; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Video Downloader</h1>
+        <form action="/download" method="POST">
+            <input type="text" name="url" placeholder="Paste link here..." required>
+            <button type="submit">Download Now</button>
+        </form>
+    </div>
+</body>
+</html>
